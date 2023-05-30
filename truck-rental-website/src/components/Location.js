@@ -7,23 +7,25 @@ function Location() {
         <form>
             <div className='form-data-right'>
                 <div className='form-data'>
-                    <label for="pickup-location">Pick Up Location</label>
-                    <input type="text" id="pickup-location" placeholder="Enter Location"></input>
+                    <label for="pickup-location" className='label'>Pick Up Location</label>
+                    <input type="text" id="pickup-location" placeholder="Enter Location" className='inputs'></input>
                     
                 </div>
+                <div></div>
                 <div className='form-data'>
-                    <label for="drop-off-location">Drop Off Location</label>
-                    <input type="text" id="drop-off-location" placeholder="Enter Location"></input>
+                    <label for="drop-off-location" className='label'>Drop Off Location</label>
+                    <input type="text" id="drop-off-location" placeholder="Enter Location" className='inputs'></input>
                     
                 </div>
             </div>
             <div className='form-data-left'>
                 <div className='form-data'> 
-                    <label for="pickup-date">Pick Up Date</label>
-                    <input type="text" id="pickup-date" placeholder="Enter Date"></input>
+                    <label for="pickup-date" className='label'>Pick Up Date</label>
+                    <input type="text" id="pickup-date" placeholder="Enter Date" className='inputs'></input>
                 </div>
+                <div></div>
                 <div>
-                    <button>SUBMIT</button>
+                    <button className='submit-btn'>SUBMIT</button>
                 </div>
             </div>
 
