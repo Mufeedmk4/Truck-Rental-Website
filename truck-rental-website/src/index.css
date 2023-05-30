@@ -64,12 +64,18 @@ li {
   
 }
 
+.nav-items li {
+  color: var(--primary)
+}
+
 .nav-logo {
   margin: 0;
+  color: var(--primary)
 }
 
 .nav-subtext {
   margin: 0;
+  color: var(--primary)
 }
 
 .nav-bottom {
@@ -167,3 +173,41 @@ input, label {
 }
 
 
+.offer-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.offer-main h2 {
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .75rem;
+}
+
+.offer i {
+  color: var(--secondary)
+}
+
+.offer p {
+  color: var(--primary)
+}
+
+.offer-group {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.offer-text {
+  color: var(--primary)
+}

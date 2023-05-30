@@ -10,7 +10,6 @@ function App() {
       <Nav />
       <NavBottom />
       <Header />
-
     </div>
   );
 }
