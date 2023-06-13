@@ -211,3 +211,28 @@ input, label {
 .offer-text {
   color: var(--primary)
 }
+
+.module-img {
+  max-width: 395px;
+}
+
+.module {
+  width: 395px;
+  height: 450px;
+  box-shadow: var(--shadow);
+}
+
+.module-top, .module-bottom{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.module-top {
+  margin-top: 3rem;
+}
+
+.module-bottom {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}

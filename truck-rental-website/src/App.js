@@ -4,12 +4,13 @@ import NavBottom from './components/NavBottom'
 
 
 
+
 function App() {
   return (
     <div className="App">
       <Nav />
       <NavBottom />
-      <Header />
+      <Header />   
     </div>
   );
 }
